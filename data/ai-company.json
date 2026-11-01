@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "project_id": "ai-company",
+  "display_name": "AI Company / Extera",
+  "status": "Active development",
+  "current_milestone": "Phase 11 — Observability & Audit",
+  "public_summary": "Multi-agent AI orchestration environment with verified execution, approval controls, event infrastructure, model routing, and persistent system state.",
+  "highlights": [
+    "Multi-agent orchestration with strict Control Plane / Execution Plane boundaries.",
+    "Verified execution, retries, review gates and approval controls.",
+    "Event and proactive infrastructure completed before observability work."
+  ],
+  "verification": [
+    "Only allowlisted public metadata is published.",
+    "No source code, internal prompts, credentials, private memory or customer data are exported."
+  ],
+  "public_update": "connect AI Company publisher",
+  "recent_updates": [
+    {
+      "date": "2026-11-01",
+      "text": "connect AI Company publisher"
+    }
+  ]
+}

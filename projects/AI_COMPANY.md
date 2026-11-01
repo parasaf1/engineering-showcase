@@ -64,19 +64,23 @@ Source, prompts, agent instructions, credentials, private memory, customer conte
 <!-- SHOWCASE-AUTO:START -->
 ## Current public status
 
-**Status:** Portfolio evidence available
-**Current milestone:** Public status sync is intentionally optional
+**Status:** Active development  
+**Current milestone:** Phase 11 — Observability & Audit
 
-The case study is available even when private-to-public synchronization is disabled.
+Multi-agent AI orchestration environment with verified execution, approval controls, event infrastructure, model routing, and persistent system state.
 
 ### Highlights
 
-- Governed multi-agent execution architecture.
+- Multi-agent orchestration with strict Control Plane / Execution Plane boundaries.
+- Verified execution, retries, review gates and approval controls.
+- Event and proactive infrastructure completed before observability work.
 
 ### Public verification
 
-- Private implementation and operating logic are excluded.
+- Only allowlisted public metadata is published.
+- No source code, internal prompts, credentials, private memory or customer data are exported.
 
 ### Recent updates
 
+- 2026-11-01: connect AI Company publisher
 <!-- SHOWCASE-AUTO:END -->
