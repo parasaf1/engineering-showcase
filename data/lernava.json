@@ -1,18 +1,24 @@
 {
   "schema_version": 1,
   "project_id": "lernava",
-  "display_name": "LearnAva",
+  "display_name": "LearnAva / Zabanyar",
   "status": "Active development",
   "current_milestone": "Validated exam audio and exam-preparation workflows",
-  "public_summary": "A cross-stack language-learning and exam-preparation product spanning Flutter clients, FastAPI services, learning progress, protected media delivery, AI-assisted workflows, testing, and iterative delivery.",
+  "public_summary": "AI-assisted German-learning and exam-preparation product with Flutter, FastAPI, protected learner delivery, and validated exam-oriented workflows.",
   "highlights": [
-    "Flutter client connected to modular FastAPI services through authenticated REST APIs.",
-    "Protected learner audio delivery and multi-speaker exam preparation workflows.",
-    "Automated verification around identity, speaking practice, exam packs, payments, and audio quality."
+    "Cross-stack Flutter and FastAPI product development.",
+    "Protected learner audio delivery and multi-speaker exam audio.",
+    "Validated preparation flows across multiple German exam formats."
   ],
   "verification": [
-    "Public evidence is limited to an explicit metadata allowlist.",
-    "Private source, prompts, credentials, user data, and raw commit messages are excluded."
+    "Only allowlisted public metadata is published.",
+    "Source code, prompts, credentials, private data, and raw commit messages are never exported."
   ],
-  "recent_updates": []
+  "public_update": "connect LernAva publisher",
+  "recent_updates": [
+    {
+      "date": "2026-11-01",
+      "text": "connect LernAva publisher"
+    }
+  ]
 }

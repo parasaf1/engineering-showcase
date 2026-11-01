@@ -64,19 +64,23 @@ The implementation remains private to protect product IP, prompts, content, user
 <!-- SHOWCASE-AUTO:START -->
 ## Current public status
 
-**Status:** Active development
+**Status:** Active development  
 **Current milestone:** Validated exam audio and exam-preparation workflows
 
-Public status is updated from an allowlisted metadata contract.
+AI-assisted German-learning and exam-preparation product with Flutter, FastAPI, protected learner delivery, and validated exam-oriented workflows.
 
 ### Highlights
 
 - Cross-stack Flutter and FastAPI product development.
+- Protected learner audio delivery and multi-speaker exam audio.
+- Validated preparation flows across multiple German exam formats.
 
 ### Public verification
 
-- Private implementation and data are excluded.
+- Only allowlisted public metadata is published.
+- Source code, prompts, credentials, private data, and raw commit messages are never exported.
 
 ### Recent updates
 
+- 2026-11-01: connect LernAva publisher
 <!-- SHOWCASE-AUTO:END -->
