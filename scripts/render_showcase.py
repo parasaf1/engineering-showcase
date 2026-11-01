@@ -58,10 +58,14 @@ def validate(payload: Any) -> dict[str, Any]:
         fail("schema_version must be 1")
     if payload["project_id"] not in PROJECTS:
         fail("unsupported project_id")
-    scalar_keys = ALLOWED_KEYS - {"schema_version", "highlights", "verification"}
+    scalar_keys = ALLOWED_KEYS - {
+        "schema_version", "highlights", "verification", "public_update"
+    }
     for key in scalar_keys:
         if not isinstance(payload[key], str) or not payload[key].strip():
             fail(f"{key} must be a non-empty string")
+    if not isinstance(payload["public_update"], str):
+        fail("public_update must be a string")
     for key in ("highlights", "verification"):
         value = payload[key]
         if not isinstance(value, list) or not value or not all(
@@ -89,6 +93,18 @@ def load_existing(path: Path) -> list[dict[str, str]]:
         and set(item) == {"date", "text"}
         and all(isinstance(value, str) for value in item.values())
     ][:8]
+
+
+def next_updates(
+    payload: dict[str, Any], existing: list[dict[str, str]]
+) -> list[dict[str, str]]:
+    update = payload["public_update"].strip()
+    if not update:
+        return existing[:8]
+    new_update = {"date": date.today().isoformat(), "text": update}
+    if not existing or existing[0]["text"] != update:
+        existing.insert(0, new_update)
+    return existing[:8]
 
 
 def render_block(payload: dict[str, Any], updates: list[dict[str, str]]) -> str:
@@ -129,24 +145,15 @@ def update_page(path: Path, block: str) -> None:
     path.write_text(updated, encoding="utf-8", newline="\n")
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("payload", type=Path)
-    parser.add_argument("--repo", type=Path, default=Path.cwd())
-    args = parser.parse_args()
-
-    payload = validate(json.loads(args.payload.read_text(encoding="utf-8")))
+def publish(payload_path: Path, repo: Path) -> None:
+    payload = validate(json.loads(payload_path.read_text(encoding="utf-8")))
     data_name, page_name = PROJECTS[payload["project_id"]]
-    data_path = args.repo / "data" / data_name
-    page_path = args.repo / "projects" / page_name
+    data_path = repo / "data" / data_name
+    page_path = repo / "projects" / page_name
     if not page_path.is_file():
         fail(f"expected page does not exist: projects/{page_name}")
 
-    updates = load_existing(data_path)
-    new_update = {"date": date.today().isoformat(), "text": payload["public_update"].strip()}
-    if not updates or updates[0]["text"] != new_update["text"]:
-        updates.insert(0, new_update)
-    updates = updates[:8]
+    updates = next_updates(payload, load_existing(data_path))
 
     stored = dict(payload)
     stored["recent_updates"] = updates
@@ -157,6 +164,14 @@ def main() -> None:
         newline="\n",
     )
     update_page(page_path, render_block(payload, updates))
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("payload", type=Path)
+    parser.add_argument("--repo", type=Path, default=Path.cwd())
+    args = parser.parse_args()
+    publish(args.payload, args.repo)
 
 
 if __name__ == "__main__":

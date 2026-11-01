@@ -1,70 +1,82 @@
-# AI Company - Sanitized Engineering Overview
+# AI Company / Extera — Engineering Case Study
 
-> **Status:** Active private system  
-> **Source repository/workspace:** Private  
-> **Public purpose:** Demonstrate multi-agent and AI-infrastructure capability without exposing reusable internal operating logic
+## Overview
 
-## System scope
-AI Company is a multi-agent AI orchestration environment designed to coordinate several product and business workstreams inside one structured operating system.
+AI Company / Extera is a multi-agent AI platform designed around controlled execution, provider routing, persistent state, approvals, memory boundaries, and verifiable outcomes.
 
-The private system contains reusable internal workflows and operating patterns. Those details are intentionally not published because they represent a meaningful part of the system's value.
+## Problem / Product Goal
 
-## Technology / concepts used
-- Ruflo orchestration
-- Hierarchical-mesh agent topology
-- LiteLLM provider abstraction/routing
-- Multi-provider LLM strategy
-- Hybrid memory
-- HNSW / vector-search concepts
-- Codex CLI assisted implementation
-- Persistent task / approval / audit / usage concepts
-- Isolated project/customer workspace design
+Coordinate AI-assisted work across product contexts without losing control of execution, state, security boundaries, or the ability to explain what happened.
 
-## High-level architecture
-```mermaid
-flowchart TD
-    S[Supervisor] --> T1[Team / Project Coordinator]
-    S --> T2[Team / Project Coordinator]
-    T1 --> A1[Specialized Agents]
-    T1 --> A2[Specialized Agents]
-    T2 --> A3[Specialized Agents]
+## My Role
 
-    A1 --> R[LLM Routing Layer]
-    A2 --> R
-    A3 --> R
+System designer and implementing engineer: decomposing the platform, defining boundaries, implementing runtime capabilities, and validating integration behavior.
 
-    R --> P1[Provider A]
-    R --> P2[Provider B]
-    R --> P3[Provider C]
+## What I Built / Worked On
 
-    S --> M[(Memory / Context)]
-    T1 --> Q[(Tasks / Approvals / Audit)]
-    T2 --> Q
-```
+- Supervisor, agent registry, and capability-oriented task intake.
+- Policy-owned model routing with direct/agent lanes, escalation, and validation.
+- Isolated execution coordination with scoped tokens, retries, and result persistence.
+- Persistent tasks, approvals, recovery, eventing, and memory interfaces.
 
-The public diagram intentionally excludes the actual prompts, agent instructions, business processes, internal tool wiring, memory schema, routing rules, and reusable operational logic.
+## Architecture
 
-## Engineering evidence
-The project demonstrates that I can:
-- structure an agent-based system rather than use isolated prompts;
-- reason about agent responsibilities and context isolation;
-- integrate multiple LLM providers behind a routing layer;
-- design around persistent memory, task state, approvals, and auditability;
-- use AI coding agents as part of an engineering workflow while retaining human validation and system-level decision making;
-- separate product/business contexts to reduce cross-contamination and improve maintainability.
+Task intent is separated from routing policy and provider execution. The runtime owns workflow state, approvals, and recovery; the execution layer isolates activity and verifies results. Routing, provider, memory, browser, and event capabilities remain separable integrations.
 
-## What I can show in an interview
-- live architecture walkthrough;
-- sanitized configuration excerpts;
-- selected terminal/system health output;
-- agent/team topology explanation;
-- a small safe demo task executed through the orchestration layer;
-- discussion of provider routing, context separation, and failure handling.
+## Technology
 
-## What is intentionally not public
-- internal prompts / agent instructions;
-- complete configuration;
-- secrets and API keys;
-- reusable business workflows;
-- customer/project-specific context;
-- source code or scripts that would allow cloning the operating system.
+Python, JavaScript, LLM provider APIs, policy routing, persistent state, event infrastructure, CLI tooling, and automated tests.
+
+## Engineering Challenges
+
+- Balancing useful agent autonomy with governed execution.
+- Keeping provider selection policy-owned and observable.
+- Recovering multi-step work without mixing product context.
+- Mapping adapter/provider failures into stable runtime behavior.
+
+## Key Decisions
+
+- Separate task intent, routing policy, and provider execution.
+- Require approval and scoped authorization at privileged boundaries.
+- Persist state atomically and provide explicit recovery paths.
+- Use events and structured attempt records as the base for auditability.
+
+## Verification / Testing
+
+Tests cover agent registration, task intake, execution, retries, recovery, routing contracts, adapters, memory, events, browser boundaries, scoped authorization, and persisted results.
+
+## Skills Demonstrated
+
+Multi-agent architecture, Python runtime engineering, model routing, approval-gated execution, persistent workflows, failure design, and automated verification.
+
+## Current Engineering Focus
+
+Production-grade observability, auditability, and execution tracing for a multi-agent AI platform.
+
+## What I Can Demonstrate in an Interview
+
+A task-to-execution architecture walkthrough, routing and escalation concepts, approvals and recovery, and a safe demo or sanitized failure scenario.
+
+## IP / Source Access
+
+Source, prompts, agent instructions, credentials, private memory, customer context, and reusable operating logic remain private. Architecture and selected safe runtime evidence are available during an interview.
+
+<!-- SHOWCASE-AUTO:START -->
+## Current public status
+
+**Status:** Portfolio evidence available
+**Current milestone:** Public status sync is intentionally optional
+
+The case study is available even when private-to-public synchronization is disabled.
+
+### Highlights
+
+- Governed multi-agent execution architecture.
+
+### Public verification
+
+- Private implementation and operating logic are excluded.
+
+### Recent updates
+
+<!-- SHOWCASE-AUTO:END -->

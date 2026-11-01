@@ -1,0 +1,29 @@
+{
+  "name": "engineering-showcase",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test lib/*.test.ts && python -m unittest discover -s tests -p \"test_*.py\""
+  },
+  "dependencies": {
+    "next": "16.4.3",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "16.4.3",
+    "typescript": "^5.9.3"
+  },
+  "overrides": {
+    "minimatch": "^11.0.1"
+  }
+}

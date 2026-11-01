@@ -1,48 +1,36 @@
-# Parsa Afshar Fard - Engineering Showcase
+# Parsa Afshar Fard — Engineering Portfolio
 
-This repository is a **sanitized portfolio showcase** of selected software and AI projects.
+This repository is both Parsa Afshar Fard's public engineering portfolio and a sanitized evidence layer for selected private projects.
 
-The production/source repositories for the projects below are intentionally private. This showcase presents architecture, engineering decisions, capabilities, and selected implementation evidence without publishing proprietary source code, prompts, business logic, datasets, secrets, or product-specific workflows.
+The recruiter experience comes first: the Next.js site presents role-specific evidence for frontend, backend/full-stack, AI systems, and technical product work, with detailed LearnAva and AI Company / Extera case studies.
 
-## Projects
+## Run locally
 
-### LearnAva / Zabanyar
-AI-assisted German-learning and exam-preparation product.
+```bash
+npm install
+npm run test
+npm run lint
+npm run typecheck
+npm run build
+```
 
-**What this demonstrates**
-- Cross-stack product execution across Flutter and FastAPI/Python
-- REST/JSON integration and multi-service development
-- Docker Compose based local environment
-- Git/GitHub workflow, testing, debugging, and iterative delivery
-- LLM-assisted conversation and learning workflows
+## Sanitized project status
 
-[View sanitized project overview](projects/LEARNAva.md)
+`data/lernava.json` and the optional `data/ai-company.json` contain only allowlisted public metadata. Private repositories publish through a write-only deploy-key workflow: they can clone and update this public repository, but this repository never receives access to private source.
 
-### AI Company
-Multi-agent AI orchestration environment for coordinating multiple product and business workstreams.
+The boundary excludes source code, private prompts, credentials, user/customer data, database contents, internal agent instructions, private memory, raw private commit messages, and reusable proprietary business logic.
 
-**What this demonstrates**
-- Multi-agent architecture and workflow design
-- LLM provider routing and BYOK-oriented system thinking
-- Hybrid memory / vector-search concepts
-- Task, approval, audit, usage, and isolated-workspace design
-- AI-assisted engineering execution with validation and review
+A normal private commit may update current status but does not create a public achievement. A recent achievement is added only when a private commit is intentionally titled:
 
-[View sanitized project overview](projects/AI_COMPANY.md)
+```text
+showcase: <meaningful recruiter-safe achievement>
+```
 
-## Source access
-Source code is private to protect product IP. For recruitment or technical evaluation, I can provide:
-- a live walkthrough,
-- selected screen sharing,
-- architecture discussion,
-- or narrowly scoped code excerpts during an interview.
-
-This allows technical depth to be evaluated without publishing the full product implementation.
+The renderer validates an exact contract, rejects credential-like content, limits changes to the project data/case-study markers, deduplicates entries, and retains at most eight achievements.
 
 ## Contact
-Seyed Parsa Afshar Fard  
-Vienna relocation planned for Informatics studies  
-Email: afsharparsa725@gmail.com
 
-## Rights
-No source code is included in this repository. The documentation and diagrams are provided for portfolio review only. See `LICENSE.md`.
+- Email: afsharparsa725@gmail.com
+- GitHub: [parasaf1](https://github.com/parasaf1)
+
+No source license is granted for proprietary project implementation. Portfolio documentation is provided for professional evaluation; see [LICENSE.md](LICENSE.md).

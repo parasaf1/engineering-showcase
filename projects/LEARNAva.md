@@ -1,59 +1,82 @@
-# LearnAva / Zabanyar - Sanitized Engineering Overview
+# LearnAva — Engineering Case Study
 
-> **Status:** Active private product  
-> **Source repository:** Private  
-> **Public purpose:** Demonstrate engineering capability without exposing product IP
+## Overview
 
-## Product scope
-LearnAva is a Persian-first German-learning and exam-preparation product. The private implementation includes language-learning workflows, AI-assisted conversation, learning progress/history, and exam-oriented practice.
+LearnAva is a Persian-first German-learning and exam-preparation product. It joins a Flutter client to modular FastAPI services and applies AI-assisted capabilities inside tested learner workflows.
 
-The public description deliberately omits the product's proprietary learning logic, prompts, content structure, user flows, ranking/scoring decisions, and implementation details that could make the product easy to reproduce.
+## Problem / Product Goal
 
-## Technology surface
-- Flutter frontend
-- Python / FastAPI backend
-- REST / JSON APIs
-- Docker Compose development environment
-- Git / GitHub workflows
-- Testing and debugging
-- LLM integration for selected AI-assisted experiences
+Create a useful learning experience spanning identity, speaking practice, exam preparation, protected generated media, and progress-oriented interactions across a maintainable client/service boundary.
 
-## High-level architecture
-```mermaid
-flowchart LR
-    U[User] --> F[Flutter Client]
-    F --> A[FastAPI Service Layer]
-    A --> L[Learning Services]
-    A --> C[AI Conversation Service]
-    A --> P[Progress / History]
-    C --> R[LLM Provider Layer]
-    L --> D[(Application Data)]
-    P --> D
-```
+## My Role
 
-This diagram is intentionally high level. Internal service boundaries, prompts, domain models, algorithms, data structures, and product-specific workflows are not published.
+Product builder and cross-stack engineer: requirements, architecture, implementation coordination, integration, debugging, and validation.
 
-## Engineering evidence
-The project demonstrates that I can:
-- work across frontend and backend boundaries;
-- define implementation tasks and validation criteria;
-- integrate external AI services into a real product workflow;
-- use containers and Git as part of day-to-day delivery;
-- debug and review AI-assisted implementation rather than accepting generated code blindly;
-- keep a multi-part product moving through iterative milestones.
+## What I Built / Worked On
 
-## What I can show in an interview
-- selected UI flows via screen sharing;
-- repository structure at a non-sensitive level;
-- one or two sanitized code excerpts;
-- how I use AI coding agents and review their output;
-- debugging / testing examples;
-- architecture decisions and trade-offs.
+- Flutter flows for onboarding, authentication, speaking practice, and exam preparation.
+- FastAPI modules for identity, billing, speaking conversations, and exam-preparation packs.
+- Authenticated REST integration and protected learner audio delivery.
+- Quality-gated multi-speaker exam audio and AI-assisted practice workflows.
 
-## What is intentionally not public
-- production source code;
-- proprietary prompts;
-- database schema details;
-- private content/data;
-- product-specific algorithms and business logic;
-- secrets, credentials, provider configuration, or deployment details.
+## Architecture
+
+Feature-oriented Flutter modules call authenticated FastAPI endpoints. Backend capabilities are separated into presentation, application, domain, and infrastructure concerns where the feature warrants them; external AI and media services stay behind gateways.
+
+## Technology
+
+Flutter, Dart, Python, FastAPI, REST/JSON, Docker Compose, automated tests, and LLM/media integrations.
+
+## Engineering Challenges
+
+- Keeping client and backend behavior aligned while both evolve.
+- Authorizing media delivery and rejecting generated audio that fails quality checks.
+- Turning exam requirements into reusable, testable workflows.
+- Debugging failures across UI, networking, services, persistence, and providers.
+
+## Key Decisions
+
+- Organize around product capabilities rather than one large application layer.
+- Treat generated media as a verified artifact, not an assumed-success provider response.
+- Protect learner delivery with ownership checks and authenticated calls.
+- Use AI-assisted implementation with explicit human review and tests.
+
+## Verification / Testing
+
+Tests cover identity/session flows, conversations, exam packs, billing contracts, ownership-protected audio, media rejection/regeneration, and health behavior. Client/service behavior is also validated through integration debugging.
+
+## Skills Demonstrated
+
+Flutter product development, Python/FastAPI engineering, authentication, API integration, protected media delivery, automated testing, debugging, and cross-stack delivery.
+
+## Current Engineering Focus
+
+Strengthening exam-oriented learning workflows, media quality, and end-to-end learner-journey reliability.
+
+## What I Can Demonstrate in an Interview
+
+A selected learner flow, the client/service boundary, sanitized test and debugging examples, and the trade-offs behind AI-assisted learning workflows.
+
+## IP / Source Access
+
+The implementation remains private to protect product IP, prompts, content, user data, and reusable logic. A live walkthrough, architecture discussion, screen sharing, and narrowly scoped sanitized excerpts are available during an interview.
+
+<!-- SHOWCASE-AUTO:START -->
+## Current public status
+
+**Status:** Active development
+**Current milestone:** Validated exam audio and exam-preparation workflows
+
+Public status is updated from an allowlisted metadata contract.
+
+### Highlights
+
+- Cross-stack Flutter and FastAPI product development.
+
+### Public verification
+
+- Private implementation and data are excluded.
+
+### Recent updates
+
+<!-- SHOWCASE-AUTO:END -->

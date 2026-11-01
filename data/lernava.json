@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "project_id": "lernava",
+  "display_name": "LearnAva",
+  "status": "Active development",
+  "current_milestone": "Validated exam audio and exam-preparation workflows",
+  "public_summary": "A cross-stack language-learning and exam-preparation product spanning Flutter clients, FastAPI services, learning progress, protected media delivery, AI-assisted workflows, testing, and iterative delivery.",
+  "highlights": [
+    "Flutter client connected to modular FastAPI services through authenticated REST APIs.",
+    "Protected learner audio delivery and multi-speaker exam preparation workflows.",
+    "Automated verification around identity, speaking practice, exam packs, payments, and audio quality."
+  ],
+  "verification": [
+    "Public evidence is limited to an explicit metadata allowlist.",
+    "Private source, prompts, credentials, user data, and raw commit messages are excluded."
+  ],
+  "recent_updates": []
+}
