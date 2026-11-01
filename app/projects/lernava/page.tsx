@@ -1,7 +1,20 @@
 import type { Metadata } from "next"; import { CaseStudy, type CaseStudyContent } from "@/components/case-study"; import { loadProjectData } from "@/lib/projects";
-export const metadata: Metadata = { title: "LearnAva Case Study", description: "A cross-stack Flutter and FastAPI learning-product engineering case study." };
+export const metadata: Metadata = {
+  title: "LearnAva Case Study",
+  description: "A cross-stack Flutter and FastAPI learning-product engineering case study.",
+  alternates: {
+    canonical: "/projects/lernava",
+  },
+  openGraph: {
+    type: "website",
+    url: "/projects/lernava",
+    title: "LearnAva Case Study — Parsa Afshar Fard",
+    description: "A cross-stack Flutter and FastAPI learning-product engineering case study.",
+    siteName: "Parsa Afshar Fard — Engineering Portfolio",
+  },
+};
 const content: CaseStudyContent = {
-  name: "LearnAva", descriptor: "A real cross-stack learning product spanning client development, API services, protected media, progress-oriented workflows, and AI-assisted practice.", role: "Product builder and cross-stack engineer—shaping requirements, architecture, implementation tasks, integration, debugging, and validation.",
+  name: "LearnAva", descriptor: "A real cross-stack learning product spanning client development, API services, protected media, progress-oriented workflows, and AI-assisted practice.", role: "Product builder and cross-stack engineerâ€”shaping requirements, architecture, implementation tasks, integration, debugging, and validation.",
   overview: "LearnAva is a Persian-first German-learning and exam-preparation product. The work joins a Flutter client to modular FastAPI services and uses AI-assisted capabilities inside learner workflows rather than as a standalone demo.",
   goal: "Create a useful learning experience that can support identity, speaking practice, exam preparation, learner-safe generated media, and progress-oriented interactions across a maintainable client/service boundary.",
   built: ["Flutter flows for onboarding, authentication, speaking practice, and exam preparation.", "FastAPI modules for identity, billing, speaking conversations, and exam-preparation packs.", "Authenticated REST integration between the learner client and backend services.", "Protected learner audio delivery, multi-speaker exam audio, and quality-gated generation workflows.", "Containerized local development and iterative Git/GitHub delivery."],

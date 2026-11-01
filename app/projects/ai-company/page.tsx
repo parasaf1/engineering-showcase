@@ -1,7 +1,20 @@
 import type { Metadata } from "next"; import { CaseStudy, type CaseStudyContent } from "@/components/case-study"; import { loadProjectData } from "@/lib/projects";
-export const metadata: Metadata = { title: "AI Company / Extera Case Study", description: "A governed multi-agent AI platform architecture and engineering case study." };
+export const metadata: Metadata = {
+  title: "AI Company / Extera Case Study",
+  description: "A governed multi-agent AI platform architecture and engineering case study.",
+  alternates: {
+    canonical: "/projects/ai-company",
+  },
+  openGraph: {
+    type: "website",
+    url: "/projects/ai-company",
+    title: "AI Company / Extera Case Study — Parsa Afshar Fard",
+    description: "A governed multi-agent AI platform architecture and engineering case study.",
+    siteName: "Parsa Afshar Fard — Engineering Portfolio",
+  },
+};
 const content: CaseStudyContent = {
-  name: "AI Company / Extera", descriptor: "A multi-agent AI platform designed around controlled execution, provider routing, persistent state, approvals, memory boundaries, and verifiable outcomes.", role: "System designer and implementing engineer—decomposing the platform, defining boundaries, implementing runtime capabilities, and validating integration behavior.",
+  name: "AI Company / Extera", descriptor: "A multi-agent AI platform designed around controlled execution, provider routing, persistent state, approvals, memory boundaries, and verifiable outcomes.", role: "System designer and implementing engineerâ€”decomposing the platform, defining boundaries, implementing runtime capabilities, and validating integration behavior.",
   overview: "AI Company / Extera explores what is required to move from isolated AI prompts to an operating platform: specialized agents, policy-owned routing, execution coordination, durable task state, approval gates, context isolation, events, and recovery.",
   goal: "Coordinate AI-assisted work across multiple product contexts without losing control of execution, state, security boundaries, or the ability to explain what happened.",
   built: ["A supervisor and agent registry with capability-oriented task intake.", "A model-policy router with direct and agent lanes, escalation rules, and output validation.", "Execution coordination with isolated workspaces, node-scoped tokens, retries, and result persistence.", "Persistent tasks, approvals, audit/usage concepts, recovery paths, and event publication.", "Memory interfaces and adapters designed to keep context scoped to the work that owns it."],
