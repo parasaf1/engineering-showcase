@@ -82,6 +82,7 @@ Multi-agent AI orchestration environment with verified execution, approval contr
 
 ### Recent updates
 
+- 2026-11-06: bind jarvis customer principal
 - 2026-11-06: bind severus owner principal
 - 2026-11-06: add experience identity contract
 - 2026-11-06: close full platform e2e validation
@@ -89,5 +90,4 @@ Multi-agent AI orchestration environment with verified execution, approval contr
 - 2026-11-06: verify failure retry review recovery
 - 2026-11-06: verify consequential approval resume path
 - 2026-11-06: verify ordinary task golden path
-- 2026-11-06: preserve trace on resumed memory
 <!-- SHOWCASE-AUTO:END -->
