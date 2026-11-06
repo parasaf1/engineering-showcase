@@ -82,6 +82,7 @@ Multi-agent AI orchestration environment with verified execution, approval contr
 
 ### Recent updates
 
+- 2026-11-06: aggregate operational telemetry
 - 2026-11-06: add metrics aggregation contract
 - 2026-11-06: verify accountability audit end to end
 - 2026-11-06: audit consequential execution
@@ -89,5 +90,4 @@ Multi-agent AI orchestration environment with verified execution, approval contr
 - 2026-11-06: add accountability audit contract
 - 2026-11-06: verify telemetry end to end
 - 2026-11-06: wire router telemetry
-- 2026-11-06: wire execution telemetry runtime
 <!-- SHOWCASE-AUTO:END -->
