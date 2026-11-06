@@ -82,6 +82,7 @@ Multi-agent AI orchestration environment with verified execution, approval contr
 
 ### Recent updates
 
+- 2026-11-06: bind severus owner principal
 - 2026-11-06: add experience identity contract
 - 2026-11-06: close full platform e2e validation
 - 2026-11-06: verify tenant isolation across subsystems
@@ -89,5 +90,4 @@ Multi-agent AI orchestration environment with verified execution, approval contr
 - 2026-11-06: verify consequential approval resume path
 - 2026-11-06: verify ordinary task golden path
 - 2026-11-06: preserve trace on resumed memory
-- 2026-11-06: verify observability and audit end to end
 <!-- SHOWCASE-AUTO:END -->
