@@ -82,6 +82,7 @@ Multi-agent AI orchestration environment with verified execution, approval contr
 
 ### Recent updates
 
+- 2026-11-06: add audited support tenant binding
 - 2026-11-06: add auditable support session contract
 - 2026-11-06: bind experience selection to execution context
 - 2026-11-06: add tenant-safe business selection
@@ -89,5 +90,4 @@ Multi-agent AI orchestration environment with verified execution, approval contr
 - 2026-11-06: bind severus owner principal
 - 2026-11-06: add experience identity contract
 - 2026-11-06: close full platform e2e validation
-- 2026-11-06: verify tenant isolation across subsystems
 <!-- SHOWCASE-AUTO:END -->
