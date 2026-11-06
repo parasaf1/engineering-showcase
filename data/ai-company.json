@@ -14,8 +14,12 @@
     "Only allowlisted public metadata is published.",
     "No source code, internal prompts, credentials, private memory or customer data are exported."
   ],
-  "public_update": "add task trace foundation",
+  "public_update": "bridge routing trace identity",
   "recent_updates": [
+    {
+      "date": "2026-11-06",
+      "text": "bridge routing trace identity"
+    },
     {
       "date": "2026-11-06",
       "text": "add task trace foundation"
