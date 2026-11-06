@@ -14,8 +14,12 @@
     "Only allowlisted public metadata is published.",
     "No source code, internal prompts, credentials, private memory or customer data are exported."
   ],
-  "public_update": "verify telemetry end to end",
+  "public_update": "add accountability audit contract",
   "recent_updates": [
+    {
+      "date": "2026-11-06",
+      "text": "add accountability audit contract"
+    },
     {
       "date": "2026-11-06",
       "text": "verify telemetry end to end"
@@ -43,10 +47,6 @@
     {
       "date": "2026-11-06",
       "text": "add task trace foundation"
-    },
-    {
-      "date": "2026-11-06",
-      "text": "harden trusted tenant identity"
     }
   ]
 }
