@@ -14,8 +14,12 @@
     "Only allowlisted public metadata is published.",
     "No source code, internal prompts, credentials, private memory or customer data are exported."
   ],
-  "public_update": "aggregate operational telemetry",
+  "public_update": "expose stable operational metrics",
   "recent_updates": [
+    {
+      "date": "2026-11-06",
+      "text": "expose stable operational metrics"
+    },
     {
       "date": "2026-11-06",
       "text": "aggregate operational telemetry"
@@ -43,10 +47,6 @@
     {
       "date": "2026-11-06",
       "text": "verify telemetry end to end"
-    },
-    {
-      "date": "2026-11-06",
-      "text": "wire router telemetry"
     }
   ]
 }
