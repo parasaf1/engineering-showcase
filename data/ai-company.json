@@ -14,8 +14,12 @@
     "Only allowlisted public metadata is published.",
     "No source code, internal prompts, credentials, private memory or customer data are exported."
   ],
-  "public_update": "verify consequential approval resume path",
+  "public_update": "verify failure retry review recovery",
   "recent_updates": [
+    {
+      "date": "2026-11-06",
+      "text": "verify failure retry review recovery"
+    },
     {
       "date": "2026-11-06",
       "text": "verify consequential approval resume path"
@@ -43,10 +47,6 @@
     {
       "date": "2026-11-06",
       "text": "aggregate operational telemetry"
-    },
-    {
-      "date": "2026-11-06",
-      "text": "add metrics aggregation contract"
     }
   ]
 }
