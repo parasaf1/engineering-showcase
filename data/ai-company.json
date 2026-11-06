@@ -14,8 +14,12 @@
     "Only allowlisted public metadata is published.",
     "No source code, internal prompts, credentials, private memory or customer data are exported."
   ],
-  "public_update": "bind experience selection to execution context",
+  "public_update": "add auditable support session contract",
   "recent_updates": [
+    {
+      "date": "2026-11-06",
+      "text": "add auditable support session contract"
+    },
     {
       "date": "2026-11-06",
       "text": "bind experience selection to execution context"
@@ -43,10 +47,6 @@
     {
       "date": "2026-11-06",
       "text": "verify tenant isolation across subsystems"
-    },
-    {
-      "date": "2026-11-06",
-      "text": "verify failure retry review recovery"
     }
   ]
 }
