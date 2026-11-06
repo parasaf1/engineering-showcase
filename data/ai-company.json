@@ -14,8 +14,12 @@
     "Only allowlisted public metadata is published.",
     "No source code, internal prompts, credentials, private memory or customer data are exported."
   ],
-  "public_update": "verify ordinary task golden path",
+  "public_update": "verify consequential approval resume path",
   "recent_updates": [
+    {
+      "date": "2026-11-06",
+      "text": "verify consequential approval resume path"
+    },
     {
       "date": "2026-11-06",
       "text": "verify ordinary task golden path"
@@ -43,10 +47,6 @@
     {
       "date": "2026-11-06",
       "text": "add metrics aggregation contract"
-    },
-    {
-      "date": "2026-11-06",
-      "text": "verify accountability audit end to end"
     }
   ]
 }

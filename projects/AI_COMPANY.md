@@ -82,6 +82,7 @@ Multi-agent AI orchestration environment with verified execution, approval contr
 
 ### Recent updates
 
+- 2026-11-06: verify consequential approval resume path
 - 2026-11-06: verify ordinary task golden path
 - 2026-11-06: preserve trace on resumed memory
 - 2026-11-06: verify observability and audit end to end
@@ -89,5 +90,4 @@ Multi-agent AI orchestration environment with verified execution, approval contr
 - 2026-11-06: expose stable operational metrics
 - 2026-11-06: aggregate operational telemetry
 - 2026-11-06: add metrics aggregation contract
-- 2026-11-06: verify accountability audit end to end
 <!-- SHOWCASE-AUTO:END -->
