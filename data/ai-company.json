@@ -14,8 +14,12 @@
     "Only allowlisted public metadata is published.",
     "No source code, internal prompts, credentials, private memory or customer data are exported."
   ],
-  "public_update": "audit approval decisions",
+  "public_update": "audit consequential execution",
   "recent_updates": [
+    {
+      "date": "2026-11-06",
+      "text": "audit consequential execution"
+    },
     {
       "date": "2026-11-06",
       "text": "audit approval decisions"
@@ -43,10 +47,6 @@
     {
       "date": "2026-11-06",
       "text": "add operational telemetry contract"
-    },
-    {
-      "date": "2026-11-06",
-      "text": "bridge routing trace identity"
     }
   ]
 }
