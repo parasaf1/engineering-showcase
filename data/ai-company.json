@@ -14,8 +14,12 @@
     "Only allowlisted public metadata is published.",
     "No source code, internal prompts, credentials, private memory or customer data are exported."
   ],
-  "public_update": "bind jarvis customer principal",
+  "public_update": "add tenant-safe business selection",
   "recent_updates": [
+    {
+      "date": "2026-11-06",
+      "text": "add tenant-safe business selection"
+    },
     {
       "date": "2026-11-06",
       "text": "bind jarvis customer principal"
@@ -43,10 +47,6 @@
     {
       "date": "2026-11-06",
       "text": "verify consequential approval resume path"
-    },
-    {
-      "date": "2026-11-06",
-      "text": "verify ordinary task golden path"
     }
   ]
 }
