@@ -14,8 +14,12 @@
     "Only allowlisted public metadata is published.",
     "No source code, internal prompts, credentials, private memory or customer data are exported."
   ],
-  "public_update": "wire execution telemetry runtime",
+  "public_update": "wire router telemetry",
   "recent_updates": [
+    {
+      "date": "2026-11-06",
+      "text": "wire router telemetry"
+    },
     {
       "date": "2026-11-06",
       "text": "wire execution telemetry runtime"
