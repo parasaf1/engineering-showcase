@@ -82,6 +82,7 @@ Multi-agent AI orchestration environment with verified execution, approval contr
 
 ### Recent updates
 
+- 2026-11-06: add execution telemetry adapter
 - 2026-11-06: add operational telemetry contract
 - 2026-11-06: bridge routing trace identity
 - 2026-11-06: add task trace foundation
