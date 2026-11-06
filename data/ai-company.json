@@ -14,8 +14,12 @@
     "Only allowlisted public metadata is published.",
     "No source code, internal prompts, credentials, private memory or customer data are exported."
   ],
-  "public_update": "verify tenant isolation across subsystems",
+  "public_update": "close full platform e2e validation",
   "recent_updates": [
+    {
+      "date": "2026-11-06",
+      "text": "close full platform e2e validation"
+    },
     {
       "date": "2026-11-06",
       "text": "verify tenant isolation across subsystems"
@@ -43,10 +47,6 @@
     {
       "date": "2026-11-06",
       "text": "verify operational metrics end to end"
-    },
-    {
-      "date": "2026-11-06",
-      "text": "expose stable operational metrics"
     }
   ]
 }

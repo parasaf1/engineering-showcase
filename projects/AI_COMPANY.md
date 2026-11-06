@@ -82,6 +82,7 @@ Multi-agent AI orchestration environment with verified execution, approval contr
 
 ### Recent updates
 
+- 2026-11-06: close full platform e2e validation
 - 2026-11-06: verify tenant isolation across subsystems
 - 2026-11-06: verify failure retry review recovery
 - 2026-11-06: verify consequential approval resume path
@@ -89,5 +90,4 @@ Multi-agent AI orchestration environment with verified execution, approval contr
 - 2026-11-06: preserve trace on resumed memory
 - 2026-11-06: verify observability and audit end to end
 - 2026-11-06: verify operational metrics end to end
-- 2026-11-06: expose stable operational metrics
 <!-- SHOWCASE-AUTO:END -->
