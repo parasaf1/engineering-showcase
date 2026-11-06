@@ -14,8 +14,12 @@
     "Only allowlisted public metadata is published.",
     "No source code, internal prompts, credentials, private memory or customer data are exported."
   ],
-  "public_update": "connect AI Company publisher",
+  "public_update": "harden trusted tenant identity",
   "recent_updates": [
+    {
+      "date": "2026-11-06",
+      "text": "harden trusted tenant identity"
+    },
     {
       "date": "2026-11-01",
       "text": "connect AI Company publisher"
