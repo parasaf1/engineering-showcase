@@ -65,25 +65,27 @@ Source, prompts, agent instructions, credentials, private memory, customer conte
 ## Current public status
 
 **Status:** Active development  
-**Current milestone:** Phase 13B — Experience Identity & Tenant Security Foundation
+**Current milestone:** Phase 13C — Business Profile & Tenant Provisioning
 
-A multi-agent AI operating platform with governed execution, tenant-safe experience identities, approval controls, auditable support access, observability, and end-to-end validation.
+A multi-agent AI operating platform with governed execution, tenant-safe experience identities, structured business profiles, controlled customer provisioning, integrity-gated activation, and end-to-end validation.
 
 ### Highlights
 
-- SEVERUS owner and JARVIS customer experiences are separated through explicit trusted identity and tenant boundaries.
-- Customer business selection and runtime context binding are fail-closed against cross-tenant and first-party access.
-- Time-bounded support access is scoped to exact customer and business contexts with isolated accountability records.
-- Adversarial identity and support security validation is integrated into a 642-test platform regression baseline.
+- Structured Business Profiles capture operational context without embedding tenant, execution, approval, or credential authority.
+- Customer provisioning follows an explicit REQUESTED → VALIDATED → PROVISIONED → ACTIVE lifecycle with fail-closed failure states.
+- The existing Customer Installer is reused through a service boundary with Business Profile persistence and backward compatibility for existing customer tenants.
+- Tenant-integrity validation blocks activation when identity, isolation, scopes, policy, profile, or runtime roots are inconsistent.
+- Phase 13C closes with 92 independent provisioning tests and a 734-test platform regression baseline.
 
 ### Public verification
 
 - Only allowlisted public metadata is published.
 - Private source code, internal prompts, credentials, customer data, private memory, execution capabilities, and proprietary workflows are not exported.
-- Experience identity establishes scope but does not grant execution or approval authority.
+- Provisioning state and business context do not grant execution or approval authority.
 
 ### Recent updates
 
+- 2026-11-08: close business profile and tenant provisioning
 - 2026-11-08: Private engineering update completed.
 - 2026-11-08: gate customer activation on tenant integrity
 - 2026-11-08: persist business profiles with legacy compatibility
@@ -91,5 +93,4 @@ A multi-agent AI operating platform with governed execution, tenant-safe experie
 - 2026-11-08: add provisioning request lifecycle
 - 2026-11-08: add business profile provisioning contract
 - 2026-11-08: close experience identity and tenant security foundation
-- 2026-11-08: Private engineering update completed.
 <!-- SHOWCASE-AUTO:END -->
