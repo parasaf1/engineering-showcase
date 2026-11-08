@@ -84,6 +84,7 @@ A multi-agent AI operating platform with governed execution, tenant-safe experie
 
 ### Recent updates
 
+- 2026-11-08: gate customer activation on tenant integrity
 - 2026-11-08: persist business profiles with legacy compatibility
 - 2026-11-08: add customer installer provisioning service
 - 2026-11-08: add provisioning request lifecycle
@@ -91,5 +92,4 @@ A multi-agent AI operating platform with governed execution, tenant-safe experie
 - 2026-11-08: close experience identity and tenant security foundation
 - 2026-11-08: Private engineering update completed.
 - 2026-11-06: add experience identity security suite
-- 2026-11-06: add audited support tenant binding
 <!-- SHOWCASE-AUTO:END -->
