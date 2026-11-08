@@ -16,8 +16,12 @@
     "Private source code, internal prompts, credentials, customer data, private memory, execution capabilities, and proprietary workflows are not exported.",
     "Experience identity establishes scope but does not grant execution or approval authority."
   ],
-  "public_update": "add customer installer provisioning service",
+  "public_update": "persist business profiles with legacy compatibility",
   "recent_updates": [
+    {
+      "date": "2026-11-08",
+      "text": "persist business profiles with legacy compatibility"
+    },
     {
       "date": "2026-11-08",
       "text": "add customer installer provisioning service"
@@ -45,10 +49,6 @@
     {
       "date": "2026-11-06",
       "text": "add audited support tenant binding"
-    },
-    {
-      "date": "2026-11-06",
-      "text": "add auditable support session contract"
     }
   ]
 }
