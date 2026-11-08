@@ -14,8 +14,12 @@
     "Only allowlisted public metadata is published.",
     "No source code, internal prompts, credentials, private memory or customer data are exported."
   ],
-  "public_update": "add experience identity security suite",
+  "public_update": "Private engineering update completed.",
   "recent_updates": [
+    {
+      "date": "2026-11-08",
+      "text": "Private engineering update completed."
+    },
     {
       "date": "2026-11-06",
       "text": "add experience identity security suite"
@@ -43,10 +47,6 @@
     {
       "date": "2026-11-06",
       "text": "bind severus owner principal"
-    },
-    {
-      "date": "2026-11-06",
-      "text": "add experience identity contract"
     }
   ]
 }

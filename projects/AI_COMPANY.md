@@ -82,6 +82,7 @@ Multi-agent AI orchestration environment with verified execution, approval contr
 
 ### Recent updates
 
+- 2026-11-08: Private engineering update completed.
 - 2026-11-06: add experience identity security suite
 - 2026-11-06: add audited support tenant binding
 - 2026-11-06: add auditable support session contract
@@ -89,5 +90,4 @@ Multi-agent AI orchestration environment with verified execution, approval contr
 - 2026-11-06: add tenant-safe business selection
 - 2026-11-06: bind jarvis customer principal
 - 2026-11-06: bind severus owner principal
-- 2026-11-06: add experience identity contract
 <!-- SHOWCASE-AUTO:END -->
