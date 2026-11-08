@@ -16,8 +16,12 @@
     "Private source code, internal prompts, credentials, customer data, private memory, execution capabilities, and proprietary workflows are not exported.",
     "Experience identity establishes scope but does not grant execution or approval authority."
   ],
-  "public_update": "close experience identity and tenant security foundation",
+  "public_update": "add business profile provisioning contract",
   "recent_updates": [
+    {
+      "date": "2026-11-08",
+      "text": "add business profile provisioning contract"
+    },
     {
       "date": "2026-11-08",
       "text": "close experience identity and tenant security foundation"
@@ -45,10 +49,6 @@
     {
       "date": "2026-11-06",
       "text": "add tenant-safe business selection"
-    },
-    {
-      "date": "2026-11-06",
-      "text": "bind jarvis customer principal"
     }
   ]
 }
