@@ -85,6 +85,7 @@ A multi-agent AI operating platform with governed execution, tenant-safe experie
 
 ### Recent updates
 
+- 2026-11-08: add jarvis commercial entitlement contract
 - 2026-11-08: close business profile and tenant provisioning
 - 2026-11-08: Private engineering update completed.
 - 2026-11-08: gate customer activation on tenant integrity
@@ -92,5 +93,4 @@ A multi-agent AI operating platform with governed execution, tenant-safe experie
 - 2026-11-08: add customer installer provisioning service
 - 2026-11-08: add provisioning request lifecycle
 - 2026-11-08: add business profile provisioning contract
-- 2026-11-08: close experience identity and tenant security foundation
 <!-- SHOWCASE-AUTO:END -->
