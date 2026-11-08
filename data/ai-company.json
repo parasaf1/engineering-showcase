@@ -16,8 +16,12 @@
     "Private source code, internal prompts, credentials, customer data, private memory, execution capabilities, and proprietary workflows are not exported.",
     "Experience identity establishes scope but does not grant execution or approval authority."
   ],
-  "public_update": "gate customer activation on tenant integrity",
+  "public_update": "Private engineering update completed.",
   "recent_updates": [
+    {
+      "date": "2026-11-08",
+      "text": "Private engineering update completed."
+    },
     {
       "date": "2026-11-08",
       "text": "gate customer activation on tenant integrity"
@@ -45,10 +49,6 @@
     {
       "date": "2026-11-08",
       "text": "Private engineering update completed."
-    },
-    {
-      "date": "2026-11-06",
-      "text": "add experience identity security suite"
     }
   ]
 }
