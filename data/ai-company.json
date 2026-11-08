@@ -17,8 +17,12 @@
     "Private source code, internal prompts, credentials, customer data, private memory, execution capabilities, and proprietary workflows are not exported.",
     "Provisioning state and business context do not grant execution or approval authority."
   ],
-  "public_update": "add jarvis commercial entitlement contract",
+  "public_update": "Private engineering update completed.",
   "recent_updates": [
+    {
+      "date": "2026-11-08",
+      "text": "Private engineering update completed."
+    },
     {
       "date": "2026-11-08",
       "text": "add jarvis commercial entitlement contract"
@@ -46,10 +50,6 @@
     {
       "date": "2026-11-08",
       "text": "add provisioning request lifecycle"
-    },
-    {
-      "date": "2026-11-08",
-      "text": "add business profile provisioning contract"
     }
   ]
 }
