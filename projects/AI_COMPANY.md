@@ -65,23 +65,26 @@ Source, prompts, agent instructions, credentials, private memory, customer conte
 ## Current public status
 
 **Status:** Active development  
-**Current milestone:** Phase 11 — Observability & Audit
+**Current milestone:** Phase 13B — Experience Identity & Tenant Security Foundation
 
-Multi-agent AI orchestration environment with verified execution, approval controls, event infrastructure, model routing, and persistent system state.
+A multi-agent AI operating platform with governed execution, tenant-safe experience identities, approval controls, auditable support access, observability, and end-to-end validation.
 
 ### Highlights
 
-- Multi-agent orchestration with strict Control Plane / Execution Plane boundaries.
-- Verified execution, retries, review gates and approval controls.
-- Event and proactive infrastructure completed before observability work.
+- SEVERUS owner and JARVIS customer experiences are separated through explicit trusted identity and tenant boundaries.
+- Customer business selection and runtime context binding are fail-closed against cross-tenant and first-party access.
+- Time-bounded support access is scoped to exact customer and business contexts with isolated accountability records.
+- Adversarial identity and support security validation is integrated into a 642-test platform regression baseline.
 
 ### Public verification
 
 - Only allowlisted public metadata is published.
-- No source code, internal prompts, credentials, private memory or customer data are exported.
+- Private source code, internal prompts, credentials, customer data, private memory, execution capabilities, and proprietary workflows are not exported.
+- Experience identity establishes scope but does not grant execution or approval authority.
 
 ### Recent updates
 
+- 2026-11-08: close experience identity and tenant security foundation
 - 2026-11-08: Private engineering update completed.
 - 2026-11-06: add experience identity security suite
 - 2026-11-06: add audited support tenant binding
@@ -89,5 +92,4 @@ Multi-agent AI orchestration environment with verified execution, approval contr
 - 2026-11-06: bind experience selection to execution context
 - 2026-11-06: add tenant-safe business selection
 - 2026-11-06: bind jarvis customer principal
-- 2026-11-06: bind severus owner principal
 <!-- SHOWCASE-AUTO:END -->
