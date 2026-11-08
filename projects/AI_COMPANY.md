@@ -84,6 +84,7 @@ A multi-agent AI operating platform with governed execution, tenant-safe experie
 
 ### Recent updates
 
+- 2026-11-08: add provisioning request lifecycle
 - 2026-11-08: add business profile provisioning contract
 - 2026-11-08: close experience identity and tenant security foundation
 - 2026-11-08: Private engineering update completed.
@@ -91,5 +92,4 @@ A multi-agent AI operating platform with governed execution, tenant-safe experie
 - 2026-11-06: add audited support tenant binding
 - 2026-11-06: add auditable support session contract
 - 2026-11-06: bind experience selection to execution context
-- 2026-11-06: add tenant-safe business selection
 <!-- SHOWCASE-AUTO:END -->

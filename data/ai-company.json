@@ -16,8 +16,12 @@
     "Private source code, internal prompts, credentials, customer data, private memory, execution capabilities, and proprietary workflows are not exported.",
     "Experience identity establishes scope but does not grant execution or approval authority."
   ],
-  "public_update": "add business profile provisioning contract",
+  "public_update": "add provisioning request lifecycle",
   "recent_updates": [
+    {
+      "date": "2026-11-08",
+      "text": "add provisioning request lifecycle"
+    },
     {
       "date": "2026-11-08",
       "text": "add business profile provisioning contract"
@@ -45,10 +49,6 @@
     {
       "date": "2026-11-06",
       "text": "bind experience selection to execution context"
-    },
-    {
-      "date": "2026-11-06",
-      "text": "add tenant-safe business selection"
     }
   ]
 }
