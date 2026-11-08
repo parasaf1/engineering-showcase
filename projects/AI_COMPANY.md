@@ -65,26 +65,29 @@ Source, prompts, agent instructions, credentials, private memory, customer conte
 ## Current public status
 
 **Status:** Active development  
-**Current milestone:** Phase 13C — Business Profile & Tenant Provisioning
+**Current milestone:** Phase 13D - JARVIS Commercial Entitlement and Runtime E2E
 
-A multi-agent AI operating platform with governed execution, tenant-safe experience identities, structured business profiles, controlled customer provisioning, integrity-gated activation, and end-to-end validation.
+AI Extera implements tenant-aware commercial access contracts for its JARVIS customer experience, including persistent entitlements, feature-level access checks, tenant-scoped business binding, and validated local runtime integration. Production API enforcement remains a separate release requirement.
 
 ### Highlights
 
-- Structured Business Profiles capture operational context without embedding tenant, execution, approval, or credential authority.
-- Customer provisioning follows an explicit REQUESTED → VALIDATED → PROVISIONED → ACTIVE lifecycle with fail-closed failure states.
-- The existing Customer Installer is reused through a service boundary with Business Profile persistence and backward compatibility for existing customer tenants.
-- Tenant-integrity validation blocks activation when identity, isolation, scopes, policy, profile, or runtime roots are inconsistent.
-- Phase 13C closes with 92 independent provisioning tests and a 734-test platform regression baseline.
+- Per-customer JARVIS entitlements support active, suspended, and revoked states, effective dates, and expirations.
+- Feature-level commercial access is revalidated on each request without granting execution or approval authority.
+- Customer identity and tenant-bound business selection are composed with the existing execution-context boundary.
+- Revoked and cross-tenant requests are rejected before the runtime resolver is called.
+- 16 integrated access tests and 16 local real-runtime E2E tests validate expected success and failure paths.
+- 833 platform regression tests pass at the Phase 13D core-level milestone.
 
 ### Public verification
 
-- Only allowlisted public metadata is published.
-- Private source code, internal prompts, credentials, customer data, private memory, execution capabilities, and proprietary workflows are not exported.
-- Provisioning state and business context do not grant execution or approval authority.
+- Only allowlisted public metadata is exported.
+- Private source, secrets, customer information, and execution credentials are not published.
+- The tested runtime is a local provisioned tenant fixture, not a deployed production API.
+- Production authentication, entrypoint enforcement, and deployed authorization E2E remain open.
 
 ### Recent updates
 
+- 2026-11-08: publish Phase 13D commercial access milestone
 - 2026-11-08: Private engineering update completed.
 - 2026-11-08: add jarvis commercial entitlement contract
 - 2026-11-08: close business profile and tenant provisioning
@@ -92,5 +95,4 @@ A multi-agent AI operating platform with governed execution, tenant-safe experie
 - 2026-11-08: gate customer activation on tenant integrity
 - 2026-11-08: persist business profiles with legacy compatibility
 - 2026-11-08: add customer installer provisioning service
-- 2026-11-08: add provisioning request lifecycle
 <!-- SHOWCASE-AUTO:END -->
