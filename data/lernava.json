@@ -14,7 +14,7 @@
     "Only allowlisted public metadata is published.",
     "Source code, prompts, credentials, private data, and raw commit messages are never exported."
   ],
-  "public_update": "connect LernAva publisher",
+  "public_update": "",
   "recent_updates": [
     {
       "date": "2026-11-01",
